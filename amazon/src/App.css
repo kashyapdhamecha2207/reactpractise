@@ -1,0 +1,395 @@
+html , body {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header1 {
+  height: 7.5vh ;
+  width: 100% ;
+  background-color: #121921 ;
+  display: grid;
+  grid-template-columns: repeat(7 , 1fr);
+  grid-template-rows: 10vh;
+  color: white;
+  align-items: center ;
+}
+
+#logo {
+  height: 8vh;
+  margin-left: 1vw;
+  margin-bottom: 1vh;
+}
+
+.location {
+  margin-bottom: 1.9vh;
+  margin-left: 3vh;
+}
+
+#locationimg {
+  height:3vh;
+  display: flex;
+}
+
+.hello {
+  margin-left: 1.3vw;
+  font-size: x-small;
+  opacity: 0.5;
+}
+
+.locationflex {
+  display: flex;
+}
+
+.locationtext1 {
+  font-size: smaller;
+  margin-right: -10vw;
+  margin-bottom: 1vh;
+}
+
+.searchbar {
+  margin-bottom: 1.4vh;
+}
+
+.all {
+  display: flex;
+  background-color: white;
+  color: black;
+  font-size: small;
+  width: 38vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  margin-bottom:1.2vh;
+  margin-left: 7.3vw;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.allflex {
+  display: flex ;
+}
+
+.alltext {
+  margin-left: 1vw;
+}
+
+#downarrow {
+  width: 1.2vw;
+  margin-left: 0.2vw;
+}
+
+#downarrow {
+  margin-top: 0.5vh;
+}
+
+.search {
+  width: 3.5vw;
+  height: 5vh;
+  border-radius: 3px;
+  background-color: #fbbe67;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search {
+  width: 4vh;
+}
+
+.allsearch {
+  display: flex;
+}
+
+.flag {
+  display: flex;
+}
+
+.indianflag {
+  margin-left: 3vh;
+  margin-bottom: 1.4vh;
+  height: 3.2vh;
+}
+
+#flagdownarrow {
+  height: 1.2vh;
+  margin-left: 0.3vw ;
+  margin-bottom: 1vh;
+}
+
+.smalltext {
+  font-size: x-small;
+}
+
+.mediumtext {
+  font-size: small;
+  margin-bottom: 3vh;
+}
+
+.account {
+  display: flex;
+  margin-right: -1.8vw;
+}
+
+#accountimg {
+  height: 1.5vh;
+  margin-bottom: 0.5vh;
+}
+
+.cart {
+  display: flex;
+}
+
+#cartimg {
+  margin-left: 4vh;
+  width: 2.7vw ; 
+}
+
+#carttext {
+  margin-top: 1vh;
+}
+
+.returnorder {
+  margin-left: 3.2vw;
+}
+
+.header2 {
+  width: 100%;
+  height: 5vh;
+  background-color: #243040;
+  color: white;
+  font-size: x-small;
+}
+
+.header21 {
+  height: 100%;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: repeat(12 , 1fr);
+  grid-template-rows: 1fr;
+}
+
+#flexjustify1 {
+  display: flex;
+}
+
+#threearrow {
+  width : 3vh;
+  margin-left: 0.9vw;
+}
+
+#flexjustifytext1 {
+  margin-left: 0.3vw ;
+}
+
+.header2 {
+  display: flex;
+  align-items: center;
+}
+
+.headertext2 {
+  margin-left: -1.0vw;
+}
+
+
+.headertext3 {
+  margin-left: -1.3vw;
+}
+
+
+.headertext4 {
+  margin-left: -2.8vw;
+}
+
+
+.headertext5 {
+  margin-left: -0vw;
+}
+
+
+.headertext6 {
+  margin-left: 1vw;
+}
+
+.headertext7 {
+  margin-left: -0.3vw;
+}
+
+.headertext8 {
+  margin-left: -0.4vw;
+}
+
+.headertext9 {
+  margin-left: -1.8vw;
+}
+
+.headertext10 {
+  margin-left: -2.9vw;
+}
+
+.headertext11 {
+  margin-left: -1.9vw;
+}
+
+.main {
+  width: 98%;
+  height: 93.8vh;
+  background-image: url(background\ picture.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px ;
+}
+
+.mainflex {
+  display: flex;
+  justify-content: space-between ;
+}
+
+.sidearrow {
+  margin-top: 16vh;
+}
+
+#sidearrowimage1 {
+  width: 3.8vh;
+  margin-left: 2vw;
+}
+
+#sidearrowimage2 {
+  width: 3.8vh;
+  margin-right: 2vw;
+}
+
+.boxs {
+  margin-top: 15.5vh;
+  width: 69%;
+  height: 46.8vh;
+}
+
+.maingrid {
+  width: 74%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  grid-template-rows: 1fr;
+}
+
+.subgrid { 
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  grid-template-rows: repeat(2 , 1fr);
+}
+
+.subimg {
+  width: 10vw;
+  margin-left: 0.5vh;
+}
+
+.imgtext {
+  font-size: x-small;
+  margin-left: 0.2vw;
+  opacity: 0.6;
+  margin-bottom: 2.5vh;
+  margin-top: -1vh;
+}
+
+.box {
+  background-color: white;
+}
+
+.maingrid {
+  column-gap: 2.8vh;
+}
+
+.maintext {
+  margin-top: 1.9vh;
+  margin-left: 0.9vw;
+  margin-bottom: 1vh;
+  font-weight: 1000;
+}
+
+.maingrid {
+  margin-left: 9px;
+  width: 71vw;
+}
+
+.subimg1 {
+  margin-left: 0.9vh;
+}
+
+#laptopsaleimg {
+  height: 40vh;
+  width: 21vw;
+}
+
+.laptopsaleflex {
+  display: flex;
+  justify-content: center ;
+}
+
+.flexthemain {
+  display: flex;
+  width: 80%;
+}
+
+.signinsecurly {
+  width: 22vw;
+  height: 19vh;
+  margin-left: 19.8vw;
+  background-color: white;
+  margin-top: 15.5vh;
+}
+
+.parent {
+  width: 76%;
+  height: 100%;
+}
+
+.bigsignintextb {
+  font-size: medium;
+}
+
+.bigsignintext {
+  margin-left: 1.5vw;
+}
+
+.signinbuttonmain {
+  width: 83%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.4vh;
+  background-color: #fed813;
+  font-size: small;
+  border-radius: 6px;
+}
+
+.signinbuttonflex {
+  display: flex;
+  justify-content: center;
+}
+
+.topbrandslaptop {
+  width: 18vw;
+  height: 27vh;
+  margin-left: 21.8vw;
+  background-color: white;
+  margin-top: 3.5vh;
+}
+
+#topbrandslaptop {
+  width: 100%;
+}
+
+.shopnow {
+  font-size: small;
+  color: #31535f ;
+  margin-left: 0.9vw;
+}
+
+#laptopshopnow {
+  margin-top: 2.2vh;
+}
